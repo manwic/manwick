@@ -1,0 +1,90 @@
+# LibGDX specific
+*.tmp
+bin/
+gen/
+out/
+build/
+target/
+
+# Java specific
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# Eclipse specific
+.metadata
+.classpath
+.project
+.settings/
+*.launch
+
+# IntelliJ specific
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# NetBeans specific
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+
+# Gradle specific
+.gradle/
+gradle-app.setting
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# LibGDX generated files
+android/gen/
+android/bin/
+android/libs/armeabi/
+android/libs/armeabi-v7a/
+android/libs/arm64-v8a/
+android/libs/x86/
+android/libs/x86_64/
+
+# Temporary files
+*~
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Build outputs
+Build/Debug/
+Build/Release/
+Build/Platform/
+
+# IDE temp files
+*.tmp
+*.bak
+*.orig
+
+# Game specific
+saves/
+screenshots/
+replays/
+
+# Asset source files (keep compiled assets)
+*.psd
+*.ai
+*.sketch
+
+# Configuration files with sensitive data
+config/local.properties
+config/secrets.properties
